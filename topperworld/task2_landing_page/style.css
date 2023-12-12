@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    color: #89216b;
+}
+
+.logo_bg {
+    background: linear-gradient(to right, #da4453, #89216b);
+    border-radius: 60% 60% 60% 60%;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #89216b;
+    transition: ease-in-out;
+}
+
+.navbar-toggler {
+    background: linear-gradient(to right, #da4453, #89216b);
+}
+
+.home_card {
+    border-radius: 40% 30% 20% 50%;
+    box-shadow: 10px 10px 45px 0px #89216b;
+}
+
+p {
+    margin-top: 100px;
+}
+
+.about_Card {
+    border-radius: 40% 40% 60% 60%;
+    box-shadow: 10px 10px 45px 0px rgb(0,10,30,255);
+}
+.about_p{
+    text-align: justify;
+}
+.course_logo{
+    width: 10em;
+    height: 10em;
+    justify-content: center;
+}
+.course_p:hover{
+    border-radius: 20% 30% 20% 10%;
+    transition: ease-in-out 2s;
+    box-shadow: 10px 10px 45px 0px rgb(0,10,30,255);
+}
+.contact_card{
+    transition: ease-in-out 2s;
+    border-radius: 5% 5% 5% 5%;
+    box-shadow: 10px 10px 45px 0px rgb(0,10,30,255);
+}
